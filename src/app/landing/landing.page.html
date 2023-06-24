@@ -1,0 +1,23 @@
+<ion-content class="back">
+  <div class="image">
+    <img src="../../assets/pic1.png"/>
+  </div>
+  <div class="text">
+    <p><span>Find</span> <span> Weather Forecast for your City</span><br> <br>Easy steps to predict the weather and make
+      your day easier</p>
+    <ion-button [routerLink]="['/home']">Get Started</ion-button>
+  </div>
+
+  <div class="auth-form">
+    <ion-grid>
+      <ion-row>
+        <ion-col align-self-center>
+          <ion-button [routerLink]="['/registration']" expand="block" color="danger">Register</ion-button>
+          <span>Already a user ?</span>
+          <ion-button [routerLink]="['/login']" expand="block" color="danger">Sign In</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  </ion-content>
+
